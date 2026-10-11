@@ -1,0 +1,436 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modest Essentials - Growth Strategy</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f7f7f7;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: white;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 23px;
+            margin-top: 30px;
+        }
+
+        .intro {
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+
+        .card a {
+            color: #333;
+        }
+
+        .page-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 14px;
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: #222;
+            text-decoration: none;
+        }
+
+        .page-link:hover {
+            background: #eee;
+        }
+
+        details {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 12px 0;
+        }
+
+        summary {
+            padding: 16px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        details p {
+            padding: 0 16px 16px;
+            margin: 0;
+        }
+
+        details a {
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                margin-top: 25px;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            nav {
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="#home" onclick="showPage('home')">Home</a>
+        <a href="#marketing" onclick="showPage('marketing')">
+            Marketing, Advertising & Social
+        </a>
+        <a href="#website" onclick="showPage('website')">
+            Website Optimization
+        </a>
+    </nav>
+</header>
+
+<main>
+
+    <!-- PAGE 1: HOME -->
+    <section id="home" class="page active">
+
+        <h1>Modest Essentials Growth Strategy</h1>
+
+        <p class="intro">
+            A collection of questions, opportunities, and ideas for
+            improving customer acquisition, engagement, and sales.
+        </p>
+
+        <div class="card">
+            <h2>Our Goal</h2>
+            <p>
+                Grow daily customers from 10–20 to 50–100.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>1. Marketing, Advertising, and Social Media</h2>
+            <p>
+                Understand customer preferences, increase Instagram
+                engagement, and improve advertising performance.
+            </p>
+            <a href="#marketing" class="page-link"
+               onclick="showPage('marketing')">
+                Explore Marketing
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>2. Website Optimization</h2>
+            <p>
+                Identify opportunities to improve the website,
+                product discovery, customer experience, and conversions.
+            </p>
+            <a href="#website" class="page-link"
+               onclick="showPage('website')">
+                Explore Website Ideas
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 2: MARKETING -->
+    <section id="marketing" class="page">
+
+        <h1>Marketing, Advertising, and Social Media</h1>
+
+        <p class="intro">
+            Explore questions and ideas for understanding customers,
+            increasing brand awareness, and improving ad performance.
+        </p>
+
+        <details>
+            <summary>Understanding Current Customer Trends and Interests</summary>
+            <p>
+                How can we simplify the process of answering the question,
+                “What is trending right now?” Google Trends is broad and
+                doesn't tell us exactly what people interested in modest
+                or halal fashion are looking for. How can we consistently
+                understand what our target customers want and what they
+                want to see?
+                <br><br>
+                <strong>Current direction:</strong> Find ways to build
+                stronger relationships with loyal customers to better
+                understand their current and future preferences and tailor
+                our offerings to them. This could also help us understand
+                what people are searching for and use those insights to
+                optimize the website for SEO and GEO.
+                <br><br>
+                <strong>Concrete ideas:</strong> Not yet defined.
+            </p>
+        </details>
+
+        <details>
+            <summary>Instagram Engagement and Brand Awareness</summary>
+            <p>
+                Despite having a large number of followers, the account
+                receives relatively little engagement on its posts.
+                How can we increase engagement, stay top of mind with
+                potential customers, and encourage people to talk about
+                and recommend the brand to others?
+                <br><br>
+                Perhaps we could create content that people are likely
+                to repost, remember, and discuss with their friends
+                and family.
+                <br><br>
+                <strong>Idea:</strong> Create a post responding to this
+                influencer's complaints about modest clothing brands by
+                showcasing Modest Essentials pieces that challenge the
+                typical expectations of modest fashion brands.
+                <br><br>
+                <a href="https://www.instagram.com/reel/DeOxIweC_mY/?srtk=Y2cxNHowcWpzNzAw"
+                   target="_blank" rel="noopener noreferrer">
+                    View the Instagram Reel
+                </a>
+            </p>
+        </details>
+
+        <details>
+            <summary>Advertising Performance and Strategy</summary>
+            <p>
+                There are currently six ads, all from August 22–24,
+                ranging from simple product displays to short-form
+                content with captions that relate to customers.
+                Which types of ads are most likely to grab customers'
+                attention and generate clicks to the website?
+                How can we create ads that attract potential customers,
+                resonate with them, reflect our brand, and ultimately
+                make them more likely to buy?
+                <br><br>
+                <strong>Current direction:</strong> Use performance data
+                to test new strategies, measure results, and focus
+                resources on the approaches that generate the most
+                customers and sales. Understand which ads perform best,
+                when they perform best, and why, then use those insights
+                to recreate successful engagement.
+                <br><br>
+                <strong>Concrete ideas:</strong> Not yet defined.
+            </p>
+        </details>
+
+        <p>
+            <a href="#home" class="page-link"
+               onclick="showPage('home')">Back to Home</a>
+        </p>
+
+    </section>
+
+
+    <!-- PAGE 3: WEBSITE OPTIMIZATION -->
+    <section id="website" class="page">
+
+        <h1>Website Optimization</h1>
+
+        <p class="intro">
+            Explore potential improvements to the website's design,
+            product discovery, and customer experience.
+        </p>
+
+        <details>
+            <summary>Reviews Page</summary>
+            <p>
+                A separate reviews page exists, even though individual
+                product pages already have reviews. Do customers actually
+                use the dedicated reviews page? If so, how do they
+                interact with it, and does it serve its intended purpose?
+                Is it helpful, or does it add unnecessary friction to
+                the customer experience?
+            </p>
+        </details>
+
+        <details>
+            <summary>Newsletter Sign-Up and Personalized Recommendations</summary>
+            <p>
+                A newsletter sign-up option exists at the bottom of the
+                website, but visitors aren't prompted to sign up when
+                they first access the site. Unless they scroll all the
+                way down, they may never see it.
+                <br><br>
+                If customers create accounts, this information could
+                potentially be used later to personalize product
+                recommendations. For example, customers who frequently
+                purchase bodycon abayas could be shown more bodycon
+                abayas and similar products they are likely to buy.
+            </p>
+        </details>
+
+        <details>
+            <summary>Header Size</summary>
+            <p>
+                The header takes up approximately one-quarter of the
+                landing page. Is this using too much of the available
+                screen space?
+            </p>
+        </details>
+
+        <details>
+            <summary>Product Labeling and Categorization</summary>
+            <p>
+                Evaluate how clothing items are named, tagged, and
+                categorized. These choices affect how easily customers
+                can find products through the website's search function
+                and external search engines.
+            </p>
+        </details>
+
+        <details>
+            <summary>Review Notification Pop-Ups</summary>
+            <p>
+                Do pop-up notifications displaying reviews improve the
+                customer experience, or do they hurt it?
+            </p>
+        </details>
+
+        <details>
+            <summary>Products Without Reviews</summary>
+            <p>
+                Some items don't have any reviews. Does this negatively
+                affect how potential customers perceive these products
+                when considering a purchase? Should we incentivize
+                customers to leave reviews?
+            </p>
+        </details>
+
+        <details>
+            <summary>Product Attribution</summary>
+            <p>
+                Why is
+                <a href="https://modestessential.us/collections/vendors?q=Modest%20Essentials"
+                   target="_blank" rel="noopener noreferrer">
+                    “By Modest Essentials”
+                </a>
+                displayed next to the product? Does this serve a useful
+                purpose for customers?
+            </p>
+        </details>
+
+        <p>
+            <a href="#home" class="page-link"
+               onclick="showPage('home')">Back to Home</a>
+        </p>
+
+    </section>
+
+</main>
+
+<footer>
+    Modest Essentials | Growth Strategy
+</footer>
+
+<script>
+    function showPage(pageId) {
+        // Hide all pages
+        document.querySelectorAll(".page").forEach(function(page) {
+            page.classList.remove("active");
+        });
+
+        // Show the selected page
+        document.getElementById(pageId).classList.add("active");
+
+        // Update the browser URL and navigation history
+        history.pushState({ page: pageId }, "", "#" + pageId);
+
+        // Return to the top of the page
+        window.scrollTo(0, 0);
+    }
+
+    // Support browser back and forward buttons
+    window.addEventListener("popstate", function() {
+        const pageId = window.location.hash.substring(1) || "home";
+        const page = document.getElementById(pageId);
+
+        if (page) {
+            document.querySelectorAll(".page").forEach(function(p) {
+                p.classList.remove("active");
+            });
+
+            page.classList.add("active");
+            window.scrollTo(0, 0);
+        }
+    });
+
+    // Open the correct page if a URL with a page hash is loaded
+    window.addEventListener("DOMContentLoaded", function() {
+        const pageId = window.location.hash.substring(1);
+        const page = document.getElementById(pageId);
+
+        if (page) {
+            document.querySelectorAll(".page").forEach(function(p) {
+                p.classList.remove("active");
+            });
+
+            page.classList.add("active");
+        }
+    });
+</script>
+
+</body>
+</html>
